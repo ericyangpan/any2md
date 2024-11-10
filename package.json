@@ -1,0 +1,28 @@
+{
+  "name": "any2markdown",
+  "version": "1.0.0",
+  "description": "Convert any web page to Markdown.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "any2md": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "web page",
+    "wechat",
+    "markdown"
+  ],
+  "author": "Pan YANG",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "commander": "^12.1.0",
+    "jsdom": "^24.0.0",
+    "playwright": "^1.48.2",
+    "turndown": "^7.2.0"
+  }
+}
